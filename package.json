@@ -1,0 +1,29 @@
+{
+  "name": "videotube",
+  "version": "1.0.0",
+  "description": "This is a clone YouTube",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EriVelk/videotube-server.git"
+  },
+  "author": "Erick Veliz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EriVelk/videotube-server/issues"
+  },
+  "homepage": "https://github.com/EriVelk/videotube-server#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.1",
+    "nodemon": "^2.0.19"
+  }
+}
